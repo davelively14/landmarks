@@ -11,6 +11,8 @@
 		7C38861F29403CC200399D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C38861E29403CC200399D10 /* ContentView.swift */; };
 		7C38862129403CC500399D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C38862029403CC500399D10 /* Assets.xcassets */; };
 		7C38862429403CC500399D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C38862329403CC500399D10 /* Preview Assets.xcassets */; };
+		7CA08E242942E4C400B57B1D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA08E232942E4C400B57B1D /* CircleImage.swift */; };
+		7CA08E262942E7C100B57B1D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA08E252942E7C100B57B1D /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7C38861E29403CC200399D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C38862029403CC500399D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C38862329403CC500399D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CA08E232942E4C400B57B1D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7CA08E252942E7C100B57B1D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				7C38861C29403CC200399D10 /* LandmarksApp.swift */,
 				7C38861E29403CC200399D10 /* ContentView.swift */,
 				7C38862029403CC500399D10 /* Assets.xcassets */,
+				7CA08E232942E4C400B57B1D /* CircleImage.swift */,
+				7CA08E252942E7C100B57B1D /* MapView.swift */,
 				7C38862229403CC500399D10 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C38861F29403CC200399D10 /* ContentView.swift in Sources */,
+				7CA08E262942E7C100B57B1D /* MapView.swift in Sources */,
 				7C38861D29403CC200399D10 /* LandmarksApp.swift in Sources */,
+				7CA08E242942E4C400B57B1D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
