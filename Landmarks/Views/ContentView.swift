@@ -15,6 +15,10 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        /*
+         The .environmentObject passes the model down the views. It can be accessed
+         */
         ContentView()
+            .environmentObject(ModelData())
     }
 }
